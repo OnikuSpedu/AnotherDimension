@@ -21,7 +21,7 @@ public class Tester {
         System.out.println(ArrayOps.largest(arr1));
         System.out.println(Arrays.toString(ArrayOps.sumRows(matrix0)));
         System.out.println(Arrays.toString(ArrayOps.largestInRows(matrix0)));
-        
+        System.out.println(ArrayOps.sum(matrix0));
         System.out.println(Arrays.toString(ArrayOps.sumCols(matrix0)));
         System.out.println(ArrayOps.isRowMagic(matrix0));
         System.out.println(ArrayOps.isRowMagic(matrix1));
