@@ -39,8 +39,8 @@ public class Tester {
         System.out.println(ArrayOps.isColMagic(matrix1)); //false
         System.out.println(ArrayOps.isColMagic(matrix2)); //true
         System.out.println(ArrayOps.isLocationMagic(matrix0, 1, 1));
-        System.out.println(ArrayOps.isLocationMagic(matrix1, 1, 3));
-        System.out.println(ArrayOps.isLocationMagic(matrix2, 2, 3));
+        System.out.println(ArrayOps.isLocationMagic(matrix1, 1, 2));
+        System.out.println(ArrayOps.isLocationMagic(matrix2, 2, 2));
         System.out.println(ArrayOps.isLocationMagic(matrix3, 0, 1));
         System.out.println(ArrayOps.isLocationMagic(matrix3, 1, 1));
     }   
